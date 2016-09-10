@@ -110,11 +110,12 @@ class Agnes():
 			self.speak("Bye")
 			return False
 
-		if "turn on" in data:
+		if "light" in data:
+			self.speak("light")
 			self.arduino("a")
 			check = False
 
-		if "turn off" in data:
+		if "off" in data:
 			self.arduino("e")
 			check = False
 
