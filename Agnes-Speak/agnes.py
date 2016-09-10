@@ -7,7 +7,7 @@ from time import ctime
 
 import webbrowser
 
-# teste
+
 class Agnes():
 	def speak(self,string):
 		print string
