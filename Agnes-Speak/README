@@ -1,0 +1,40 @@
+Projeto desenvolvido para aprender reconhecimento de voz usando python e a biblioteca da linguagem:
+https://pypi.python.org/pypi/SpeechRecognition/
+
+
+Dependências:
+
+*Instalando o pyaudio e a biblioteca SpeechRecognition:
+
+git clone http://people.csail.mit.edu/hubert/git/pyaudio.git
+cd pyaudio
+sudo python setup.py install
+sudo apt-get install libportaudio-dev
+sudo apt-get install python-dev
+sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
+sudo pip3 install SpeechRecognition
+
+* Instalando a biblioteca gTTS:
+
+sudo pip install gTTS
+
+*Instalando o wxgtk 3.0: 
+
+sudo apt-get install python-wxgtk3.0
+
+* Instalando o pocketsphinx:
+
+sudo apt-get install python-pocketsphinx pyttsx python-sphinx
+
+* Instalando o mpg321 (necessário para reproduzir MP3):
+
+ sudo apt-get install mpg321
+ 
+ * Instalando bibliotecas adicionais: 
+ 
+sudo apt-get install libportaudio-dev
+
+
+* Instalando o kit multimedia Jack (talvez não seja necessário):
+
+sudo apt-get install multimedia-jack
