@@ -6,6 +6,7 @@ from gtts import gTTS
 from time import ctime
 
 import webbrowser
+import serial
 
 
 class Agnes():
