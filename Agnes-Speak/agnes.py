@@ -57,7 +57,7 @@ class Agnes():
 	def arduino(self, letter):
 		ser = serial.Serial('/dev/ttyUSB0', 9600)
 		ser.write(letter)
-		check = False
+		
 	
 	def convert_list_to_string(self,list):
 		string = ""
@@ -112,11 +112,12 @@ class Agnes():
 
 		if "turn on" in data:
 			self.arduino("a")
-
+			check = False
 
 		if "turn off" in data:
 			self.arduino("e")
-			
+			check = False
+
 		if check:
 			self.speak("I did not understand, repeate please")
 
