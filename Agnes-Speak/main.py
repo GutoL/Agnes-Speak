@@ -1,7 +1,10 @@
-
+import threading
 import wx
 from agnes import *
 
+def work():
+	a = Agnes()
+	a.start()
 
 class ButtonFrame(wx.Frame):
 	def __init__(self):
@@ -20,10 +23,8 @@ class ButtonFrame(wx.Frame):
 		wx.StaticBitmap(panel, 1, png, (0, 0), (png.GetWidth(), png.GetHeight()))
 
 	def start(self, event):
-		self.a = Agnes()
-		self.a.start()
-
-
+		t = threading.Thread(target = work)
+		t.start()
 
 
 def main():

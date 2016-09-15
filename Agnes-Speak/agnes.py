@@ -107,7 +107,7 @@ class Agnes():
 
 		# exit the program
 		if "goodbye" in data:
-			self.speak("Bye")
+			self.speak("goodbye")
 			return False
 
 		if "light" in data:
