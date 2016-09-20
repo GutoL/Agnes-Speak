@@ -18,7 +18,7 @@ class ButtonFrame(wx.Frame):
 		#self.label = wx.StaticText(panel, -1, "Oi, eu sou a Agnes ^^", pos=(230,10))
 		#self.texto = wx.TextCtrl(panel, pos=(220,30), size = (180,50))
 		
-		png = wx.Image("Imagem/Faces/face-1.png",wx.BITMAP_TYPE_ANY).ConvertToBitmap()
+		png = wx.Image("Images/Faces/face-1.png",wx.BITMAP_TYPE_ANY).ConvertToBitmap()
 		wx.StaticBitmap(panel, 1, png, (0, 0), (png.GetWidth(), png.GetHeight()))
 		
 
