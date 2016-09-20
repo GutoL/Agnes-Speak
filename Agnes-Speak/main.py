@@ -8,7 +8,7 @@ def work():
 
 class ButtonFrame(wx.Frame):
 	def __init__(self):
-		wx.Frame.__init__(self, None, -1, 'Agnes', size=(510, 330))
+		wx.Frame.__init__(self, None, -1, 'Agnes', size=(485, 330))
 		self.Center()
 		panel = wx.Panel(self, -1)
 		self.button = wx.Button(panel, -1, "Start", pos=(205, 300))
