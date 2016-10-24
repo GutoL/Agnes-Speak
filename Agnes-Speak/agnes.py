@@ -55,8 +55,9 @@ class Agnes():
 		return phrases
 
 	def arduino(self, letter):
-		ser = serial.Serial('/dev/ttyUSB0', 9600)
+		ser = serial.Serial('/dev/ttyACM0', 9600)
 		ser.write(letter)
+		#ser.write(str(chr(97)))
 		
 	
 	def convert_list_to_string(self,list):
