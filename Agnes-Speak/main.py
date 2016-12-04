@@ -1,10 +1,15 @@
 import threading
 import wx
 from agnes import *
+from find import *
 
-def work():
+def work_agnes():
 	a = Agnes()
 	a.start()
+
+def work_detect_faces():
+	d = detectFace()
+	d.startWeb()
 
 class ButtonFrame(wx.Frame):
 	def __init__(self):
@@ -32,11 +37,11 @@ class ButtonFrame(wx.Frame):
 
 	def start(self, event):
 
-		t1 = threading.Thread(target = work)
+		t1 = threading.Thread(target = work_agnes)
 		t1.start()
 
-
-
+		t2 = threading.Thread(target = work_detect_faces)
+		t2.start()
 
 def main():
 	

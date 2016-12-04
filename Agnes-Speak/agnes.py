@@ -75,8 +75,8 @@ class Agnes():
 		return string
 
 	def agnes(self,data):
-		questions = self.read_file("questions.txt")
-		responses = self.read_file("responses.txt")
+		questions = self.read_file("questions/questions.txt")
+		responses = self.read_file("questions/responses.txt")
 		
 		i = 0
 		check = True
