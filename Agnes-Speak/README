@@ -45,5 +45,5 @@ sudo apt-get update && apt-get install python2.7-dev python2.7 python-pip
 sudo apt-get install -f python-serial
 
 * Instalando o opencv (para python):
-verifique como baixar e instalar aqui: http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
-para funcionar com o python: sudo apt-get install libopencv-dev python-opencv python-dev
+Verifique como baixar e instalar aqui: http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
+Para funcionar com o python: sudo apt-get install libopencv-dev python-opencv python-dev
