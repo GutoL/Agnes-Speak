@@ -1,6 +1,7 @@
 Projeto desenvolvido para aprender reconhecimento de voz usando python e a biblioteca da linguagem:
 https://pypi.python.org/pypi/SpeechRecognition/
 
+Executando: python main.py
 
 Dependências:
 
